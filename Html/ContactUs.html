@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../CSS/ContactUs.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <section class="container1">
+        <div id="logo">
+            <img src="../Logo/logo4.png" alt="Programming Grid">
+        </div>
+        <div id="title">
+            Programming Grid
+        </div>
+        <div id="navbar">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="website.html">Home</a></li>
+                    <li><a href="History.html">History</a></li>
+                    <li><a href="languages.html">Languages</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <input type="text" placeholder="Type Here To Search" id="searchbox">
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+
+    <section id="contact">
+
+        <div id="containertitle">
+            <div class="h-primary">Contact Us</div>
+        </div>
+
+        <div id="contactcontainer">
+            <div id="contactpic">
+                <img src="../Pics/contact-us.jpg" alt="Contact Us">
+            </div>
+            <div class="column">
+
+
+                <form action="contact.php" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" placeholder="Enter Your Name" id="name">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" placeholder="Enter Your Email" id="email">
+                    <label for="number">Contact Number:</label>
+                    <input type="text" name="number" placeholder="Enter Your Contact Number" id="number">
+                    <label for="message">Message:</label>
+                   <textarea name="message" id="message" style="height: 170px;" placeholder="Enter Your Message Here ..."></textarea>
+                    <input type="submit" value="Submit" id="submitbtn">
+                </form>
+            </div>
+
+    </section>
+
+
+
+    <footer id="footer">
+        <div id="footercontent">Copyright &#169 2020 Sheharyar. All rights Reserved</div>
+    </footer>
+</body>
+
+</html>
